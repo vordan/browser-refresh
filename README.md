@@ -8,6 +8,7 @@ Excellent tool for web developers, they don't have to leave the editor and grab 
 
 Dependencies (all Linux packages):
 <ul>
+  <li>bash</li>
   <li>xdotool</li>
   <li>xterm</li>
   <li>xsel</li>
