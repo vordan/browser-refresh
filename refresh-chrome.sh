@@ -9,8 +9,8 @@
 # xterm -iconic -e /home/vanco/disk.mk/bin/refresh-chrome.sh
 #
 
-titles="10.10 192.168 FSSC";		# Window titles to search for
-browsers="Chrom chrom firefox";	# Browsers to refresh
+titles="10.10 192.168";		# Window URLs to search for
+browsers="Chrom chrom firefox";		# Browsers to refresh
 
 for browser in $browsers; do
 	focused_window_id=$(xdotool getwindowfocus)                             # remember current window
